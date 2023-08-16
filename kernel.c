@@ -34,7 +34,7 @@ void kmain(void) {
 	clean();
 	
 	const char *str = "my first kernel on c!";
-	const char *str_1 = "Hello world! my kernel!";
+	const char *str_1 = "Hello world! I had seted git on my pc!";
 	
 	print_video(str);
 
