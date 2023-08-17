@@ -1,6 +1,8 @@
 #include "../kernel.h"
 
-void print(const char * str){
+
+void print(const char * str, int color){
+    
 	j = 0;
 	while(vidptr[i] = '\0') {
 		i = i + 2;
@@ -10,7 +12,7 @@ void print(const char * str){
 
 	while(str[j] != '\0') {
 		vidptr[i] = str[j];
-		vidptr[i+1] = COLOR;
+		vidptr[i+1] = color;
 		++j;
 		i = i+2;
 	} 

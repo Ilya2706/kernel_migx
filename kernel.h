@@ -3,6 +3,5 @@
  
 extern char *vidptr;
 extern int i, j;
-extern char COLOR;
 
 #endif
