@@ -1,7 +1,6 @@
 #include "src/clean.h"
 #include "src/print.h"
 
-
 char *vidptr = (char*)0xb8000;
 unsigned int i = 0, j = 0;
 char COLOR = 0x02;
