@@ -1,7 +1,5 @@
 #include "../kernel.h"
 
-#define COLOUR 0x03
-
 void print(const char * str){
 	j = 0;
 	while(vidptr[i] = '\0') {
@@ -12,7 +10,7 @@ void print(const char * str){
 
 	while(str[j] != '\0') {
 		vidptr[i] = str[j];
-		vidptr[i+1] = COLOUR;
+		vidptr[i+1] = COLOR;
 		++j;
 		i = i+2;
 	} 
