@@ -8,4 +8,4 @@ delete: *
 	rm kernel *.o
 
 run: kernel
-	qemu-system-i386 -kernel kernel  
+	qemu-system-i386 -kernel kernel
